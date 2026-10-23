@@ -1,0 +1,572 @@
+{
+ "seed": 0,
+ "source": "Google Scanned Objects via kevinzakka/mujoco_scanned_objects (CC-BY 4.0)",
+ "pool": {
+  "one_hand": 114,
+  "two_hands": 466
+ },
+ "one_hand": [
+  {
+   "name": "3D_Dollhouse_Happy_Brother",
+   "width_cm": 2.9,
+   "length_cm": 5.9,
+   "height_cm": 9.4,
+   "mass_kg": 0.019
+  },
+  {
+   "name": "Android_Figure_Chrome",
+   "width_cm": 4.5,
+   "length_cm": 6.8,
+   "height_cm": 8.1,
+   "mass_kg": 0.024
+  },
+  {
+   "name": "Android_Figure_Orange",
+   "width_cm": 4.5,
+   "length_cm": 6.2,
+   "height_cm": 8.0,
+   "mass_kg": 0.067
+  },
+  {
+   "name": "Android_Figure_Panda",
+   "width_cm": 4.5,
+   "length_cm": 6.2,
+   "height_cm": 7.5,
+   "mass_kg": 0.059
+  },
+  {
+   "name": "Brother_Ink_Cartridge_Magenta_LC75M",
+   "width_cm": 3.0,
+   "length_cm": 8.7,
+   "height_cm": 14.7,
+   "mass_kg": 0.077
+  },
+  {
+   "name": "Canon_Pixma_Chromalife_100_Magenta_8",
+   "width_cm": 3.2,
+   "length_cm": 9.2,
+   "height_cm": 11.3,
+   "mass_kg": 0.054
+  },
+  {
+   "name": "Canon_Pixma_Ink_Cartridge_251_M",
+   "width_cm": 2.3,
+   "length_cm": 11.1,
+   "height_cm": 9.7,
+   "mass_kg": 0.054
+  },
+  {
+   "name": "Cole_Hardware_Mini_Honey_Dipper",
+   "width_cm": 2.0,
+   "length_cm": 2.0,
+   "height_cm": 11.0,
+   "mass_kg": 0.004
+  },
+  {
+   "name": "Crayola_Bonus_64_Crayons",
+   "width_cm": 4.2,
+   "length_cm": 14.7,
+   "height_cm": 12.7,
+   "mass_kg": 0.323
+  },
+  {
+   "name": "Dell_Ink_Cartridge_Yellow_31",
+   "width_cm": 3.3,
+   "length_cm": 10.1,
+   "height_cm": 14.0,
+   "mass_kg": 0.078
+  },
+  {
+   "name": "Epson_Ink_Cartridge_126_Yellow",
+   "width_cm": 2.7,
+   "length_cm": 11.3,
+   "height_cm": 11.4,
+   "mass_kg": 0.094
+  },
+  {
+   "name": "Epson_LabelWorks_LC4WBN9_Tape_reel_labels_047_x_295_Roll_Black_on_White",
+   "width_cm": 4.0,
+   "length_cm": 8.8,
+   "height_cm": 12.3,
+   "mass_kg": 0.104
+  },
+  {
+   "name": "Fujifilm_instax_SHARE_SP1_10_photos",
+   "width_cm": 4.2,
+   "length_cm": 10.2,
+   "height_cm": 12.2,
+   "mass_kg": 0.2
+  },
+  {
+   "name": "Granimals_20_Wooden_ABC_Blocks_Wagon_85VdSftGsLi",
+   "width_cm": 3.0,
+   "length_cm": 3.1,
+   "height_cm": 3.0,
+   "mass_kg": 0.008
+  },
+  {
+   "name": "JarroSil_Activated_Silicon_5exdZHIeLAp",
+   "width_cm": 4.7,
+   "length_cm": 6.0,
+   "height_cm": 9.2,
+   "mass_kg": 0.058
+  },
+  {
+   "name": "MK7",
+   "width_cm": 4.7,
+   "length_cm": 4.8,
+   "height_cm": 8.4,
+   "mass_kg": 0.035
+  },
+  {
+   "name": "Nestle_Candy_19_oz_Butterfinger_Singles_116567",
+   "width_cm": 4.1,
+   "length_cm": 16.8,
+   "height_cm": 1.8,
+   "mass_kg": 0.032
+  },
+  {
+   "name": "Nickelodeon_Teenage_Mutant_Ninja_Turtles_Michelangelo",
+   "width_cm": 4.5,
+   "length_cm": 14.0,
+   "height_cm": 11.3,
+   "mass_kg": 0.049
+  },
+  {
+   "name": "Nintendo_Mario_Action_Figure",
+   "width_cm": 4.6,
+   "length_cm": 7.2,
+   "height_cm": 10.1,
+   "mass_kg": 0.021
+  },
+  {
+   "name": "Object",
+   "width_cm": 4.8,
+   "length_cm": 11.7,
+   "height_cm": 11.3,
+   "mass_kg": 0.045
+  },
+  {
+   "name": "Office_Depot_Canon_CL211XL_Remanufactured_Ink_Cartridge_TriColor",
+   "width_cm": 4.8,
+   "length_cm": 8.5,
+   "height_cm": 11.7,
+   "mass_kg": 0.237
+  },
+  {
+   "name": "Office_Depot_Canon_CLI_221BK_Ink_Cartridge_Black_2946B001",
+   "width_cm": 4.9,
+   "length_cm": 8.5,
+   "height_cm": 11.8,
+   "mass_kg": 0.109
+  },
+  {
+   "name": "Office_Depot_Canon_PG21XL_Remanufactured_Ink_Cartridge_Black",
+   "width_cm": 5.0,
+   "length_cm": 8.5,
+   "height_cm": 11.7,
+   "mass_kg": 0.129
+  },
+  {
+   "name": "Office_Depot_Dell_Series_11_Remanufactured_Ink_Cartridge_Black",
+   "width_cm": 4.9,
+   "length_cm": 8.7,
+   "height_cm": 11.9,
+   "mass_kg": 0.222
+  },
+  {
+   "name": "Office_Depot_Dell_Series_1_Remanufactured_Ink_Cartridge_Black",
+   "width_cm": 4.9,
+   "length_cm": 8.6,
+   "height_cm": 11.8,
+   "mass_kg": 0.165
+  },
+  {
+   "name": "Office_Depot_Dell_Series_9_Ink_Cartridge_Black_MK992",
+   "width_cm": 4.9,
+   "length_cm": 8.6,
+   "height_cm": 11.8,
+   "mass_kg": 0.118
+  },
+  {
+   "name": "Office_Depot_HP_950XL_Ink_Cartridge_Black_CN045AN",
+   "width_cm": 4.9,
+   "length_cm": 8.5,
+   "height_cm": 11.7,
+   "mass_kg": 0.137
+  },
+  {
+   "name": "PEEKABOO_ROLLER",
+   "width_cm": 4.4,
+   "length_cm": 6.3,
+   "height_cm": 5.8,
+   "mass_kg": 0.043
+  },
+  {
+   "name": "Perricone_MD_No_Foundation_Serum",
+   "width_cm": 4.3,
+   "length_cm": 6.4,
+   "height_cm": 12.2,
+   "mass_kg": 0.075
+  },
+  {
+   "name": "Perricone_MD_No_Lipstick_Lipstick",
+   "width_cm": 4.3,
+   "length_cm": 5.0,
+   "height_cm": 7.9,
+   "mass_kg": 0.07
+  },
+  {
+   "name": "Perricone_MD_No_Mascara_Mascara",
+   "width_cm": 4.4,
+   "length_cm": 5.2,
+   "height_cm": 12.8,
+   "mass_kg": 0.15
+  },
+  {
+   "name": "Persona_Q_Shadow_of_the_Labyrinth_Nintendo_3DS",
+   "width_cm": 2.5,
+   "length_cm": 14.2,
+   "height_cm": 12.8,
+   "mass_kg": 0.174
+  },
+  {
+   "name": "Pok\u00e9mon_Yellow_Special_Pikachu_Edition_Nintendo_Game_Boy_Color",
+   "width_cm": 1.0,
+   "length_cm": 5.8,
+   "height_cm": 6.5,
+   "mass_kg": 0.01
+  },
+  {
+   "name": "SAMe_200_KX7ZmOw47co",
+   "width_cm": 4.8,
+   "length_cm": 8.2,
+   "height_cm": 13.0,
+   "mass_kg": 0.226
+  },
+  {
+   "name": "Schleich_African_Black_Rhino",
+   "width_cm": 3.9,
+   "length_cm": 13.6,
+   "height_cm": 5.9,
+   "mass_kg": 0.065
+  },
+  {
+   "name": "Schleich_Lion_Action_Figure",
+   "width_cm": 4.0,
+   "length_cm": 11.3,
+   "height_cm": 6.9,
+   "mass_kg": 0.045
+  },
+  {
+   "name": "Seagate_1TB_Backup_Plus_portable_drive_Blue",
+   "width_cm": 1.5,
+   "length_cm": 8.1,
+   "height_cm": 12.4,
+   "mass_kg": 0.033
+  },
+  {
+   "name": "Seagate_1TB_Backup_Plus_portable_drive_Silver",
+   "width_cm": 1.6,
+   "length_cm": 8.2,
+   "height_cm": 12.4,
+   "mass_kg": 0.051
+  },
+  {
+   "name": "Seagate_1TB_Backup_Plus_portable_drive_for_Mac",
+   "width_cm": 1.6,
+   "length_cm": 8.2,
+   "height_cm": 12.4,
+   "mass_kg": 0.047
+  },
+  {
+   "name": "YumYum_D3_Liquid",
+   "width_cm": 3.3,
+   "length_cm": 3.5,
+   "height_cm": 10.0,
+   "mass_kg": 0.028
+  }
+ ],
+ "two_hands": [
+  {
+   "name": "ASICS_GELDirt_Dog_4_SunFlameBlack",
+   "width_cm": 10.1,
+   "length_cm": 28.1,
+   "height_cm": 10.5,
+   "mass_kg": 0.169
+  },
+  {
+   "name": "ASICS_GELTour_Lyte_WhiteOrchidSilver",
+   "width_cm": 9.5,
+   "length_cm": 26.2,
+   "height_cm": 12.1,
+   "mass_kg": 0.395
+  },
+  {
+   "name": "Avengers_Thor_PLlrpYniaeB",
+   "width_cm": 28.0,
+   "length_cm": 28.3,
+   "height_cm": 13.2,
+   "mass_kg": 0.422
+  },
+  {
+   "name": "Azure_Snake_Tieks_Leather_Snake_Print_Ballet_Flats",
+   "width_cm": 8.3,
+   "length_cm": 24.0,
+   "height_cm": 8.0,
+   "mass_kg": 0.106
+  },
+  {
+   "name": "Cole_Hardware_Deep_Bowl_Good_Earth_1075",
+   "width_cm": 28.0,
+   "length_cm": 28.0,
+   "height_cm": 13.2,
+   "mass_kg": 0.183
+  },
+  {
+   "name": "DRAGON_W",
+   "width_cm": 8.7,
+   "length_cm": 26.0,
+   "height_cm": 10.5,
+   "mass_kg": 0.211
+  },
+  {
+   "name": "F10_TRX_FG_ssscuo9tGxb",
+   "width_cm": 9.2,
+   "length_cm": 27.8,
+   "height_cm": 10.6,
+   "mass_kg": 0.194
+  },
+  {
+   "name": "F5_TRX_FG",
+   "width_cm": 9.0,
+   "length_cm": 28.0,
+   "height_cm": 11.7,
+   "mass_kg": 0.155
+  },
+  {
+   "name": "Fresca_Peach_Citrus_Sparkling_Flavored_Soda_12_PK",
+   "width_cm": 13.8,
+   "length_cm": 40.6,
+   "height_cm": 12.9,
+   "mass_kg": 1.254
+  },
+  {
+   "name": "Hasbro_Dont_Wake_Daddy_Board_Game",
+   "width_cm": 8.9,
+   "length_cm": 40.5,
+   "height_cm": 27.2,
+   "mass_kg": 1.062
+  },
+  {
+   "name": "Hilary",
+   "width_cm": 8.1,
+   "length_cm": 23.3,
+   "height_cm": 17.1,
+   "mass_kg": 0.309
+  },
+  {
+   "name": "Horse_Dreams_Pencil_Case",
+   "width_cm": 8.3,
+   "length_cm": 21.7,
+   "height_cm": 9.6,
+   "mass_kg": 0.164
+  },
+  {
+   "name": "HyperX_Cloud_II_Headset_Red",
+   "width_cm": 12.4,
+   "length_cm": 24.4,
+   "height_cm": 33.0,
+   "mass_kg": 1.981
+  },
+  {
+   "name": "JUICER_SET",
+   "width_cm": 17.9,
+   "length_cm": 28.4,
+   "height_cm": 7.5,
+   "mass_kg": 0.216
+  },
+  {
+   "name": "KID_ROOM_FURNITURE_SET_1",
+   "width_cm": 12.3,
+   "length_cm": 23.3,
+   "height_cm": 9.4,
+   "mass_kg": 0.149
+  },
+  {
+   "name": "Melissa_Doug_Cart_Turtle_Block",
+   "width_cm": 26.9,
+   "length_cm": 35.0,
+   "height_cm": 6.8,
+   "mass_kg": 0.261
+  },
+  {
+   "name": "Melissa_Doug_Pound_and_Roll",
+   "width_cm": 14.2,
+   "length_cm": 22.8,
+   "height_cm": 17.5,
+   "mass_kg": 0.435
+  },
+  {
+   "name": "Mens_Bahama_in_Black_b4ADzYywRHl",
+   "width_cm": 10.0,
+   "length_cm": 28.3,
+   "height_cm": 10.1,
+   "mass_kg": 0.294
+  },
+  {
+   "name": "Mist_Wipe_Warmer",
+   "width_cm": 12.6,
+   "length_cm": 26.3,
+   "height_cm": 23.1,
+   "mass_kg": 1.453
+  },
+  {
+   "name": "Nickelodeon_The_Spongebob_Movie_PopAPart_Spongebob",
+   "width_cm": 11.7,
+   "length_cm": 22.2,
+   "height_cm": 13.2,
+   "mass_kg": 0.056
+  },
+  {
+   "name": "Pepsi_Cola_Wild_Cherry_Diet_12_12_fl_oz_355_ml_cans_144_fl_oz_426_lt",
+   "width_cm": 14.1,
+   "length_cm": 40.5,
+   "height_cm": 12.8,
+   "mass_kg": 0.808
+  },
+  {
+   "name": "ProSport_Harness_to_Booster_Seat",
+   "width_cm": 22.3,
+   "length_cm": 22.4,
+   "height_cm": 5.3,
+   "mass_kg": 0.264
+  },
+  {
+   "name": "PureCadence_2_Color_TleBluLmePnchSlvMoodIndgWh_Size_50_EEzAfcBfHHO",
+   "width_cm": 10.7,
+   "length_cm": 28.2,
+   "height_cm": 11.1,
+   "mass_kg": 0.315
+  },
+  {
+   "name": "Reebok_BREAKPOINT_LO_2V",
+   "width_cm": 8.1,
+   "length_cm": 21.4,
+   "height_cm": 8.4,
+   "mass_kg": 0.155
+  },
+  {
+   "name": "Reebok_FS_HI_INT_R12",
+   "width_cm": 8.7,
+   "length_cm": 25.9,
+   "height_cm": 14.0,
+   "mass_kg": 0.225
+  },
+  {
+   "name": "Reebok_STUDIO_BEAT_LOW_V",
+   "width_cm": 9.6,
+   "length_cm": 26.2,
+   "height_cm": 10.3,
+   "mass_kg": 0.376
+  },
+  {
+   "name": "Reebok_VERSA_TRAIN",
+   "width_cm": 10.5,
+   "length_cm": 29.4,
+   "height_cm": 11.7,
+   "mass_kg": 0.407
+  },
+  {
+   "name": "Reebok_ZIGTECH_SHARK_MAYHEM360",
+   "width_cm": 10.8,
+   "length_cm": 29.3,
+   "height_cm": 12.0,
+   "mass_kg": 0.499
+  },
+  {
+   "name": "Room_Essentials_Dish_Drainer_Collapsible_White",
+   "width_cm": 31.4,
+   "length_cm": 36.4,
+   "height_cm": 8.0,
+   "mass_kg": 1.472
+  },
+  {
+   "name": "SAMBA_HEMP",
+   "width_cm": 9.8,
+   "length_cm": 28.6,
+   "height_cm": 10.7,
+   "mass_kg": 0.391
+  },
+  {
+   "name": "Sperry_TopSider_tNB9t6YBUf3",
+   "width_cm": 8.7,
+   "length_cm": 23.9,
+   "height_cm": 18.8,
+   "mass_kg": 0.445
+  },
+  {
+   "name": "Super_Mario_3D_World_Deluxe_Set",
+   "width_cm": 13.0,
+   "length_cm": 25.4,
+   "height_cm": 5.1,
+   "mass_kg": 0.187
+  },
+  {
+   "name": "TOP_TEN_HI_60KlbRbdoJA",
+   "width_cm": 10.0,
+   "length_cm": 29.4,
+   "height_cm": 16.1,
+   "mass_kg": 0.312
+  },
+  {
+   "name": "Tetris_Link_Game",
+   "width_cm": 9.0,
+   "length_cm": 32.2,
+   "height_cm": 26.6,
+   "mass_kg": 1.062
+  },
+  {
+   "name": "Threshold_Hand_Towel_Blue_Medallion_16_x_27",
+   "width_cm": 17.9,
+   "length_cm": 21.3,
+   "height_cm": 5.1,
+   "mass_kg": 0.219
+  },
+  {
+   "name": "Timberland_Womens_Classic_Amherst_2Eye_Boat_Shoe",
+   "width_cm": 9.1,
+   "length_cm": 26.3,
+   "height_cm": 9.1,
+   "mass_kg": 0.16
+  },
+  {
+   "name": "Tory_Burch_Kiernan_Riding_Boot",
+   "width_cm": 9.2,
+   "length_cm": 27.3,
+   "height_cm": 29.5,
+   "mass_kg": 0.39
+  },
+  {
+   "name": "Victor_Reversible_Bookend",
+   "width_cm": 10.6,
+   "length_cm": 23.4,
+   "height_cm": 23.5,
+   "mass_kg": 0.674
+  },
+  {
+   "name": "ZX700_mf9Pc06uL06",
+   "width_cm": 10.4,
+   "length_cm": 28.8,
+   "height_cm": 13.0,
+   "mass_kg": 0.532
+  },
+  {
+   "name": "ZX700_mzGbdP3u6JB",
+   "width_cm": 10.0,
+   "length_cm": 28.9,
+   "height_cm": 13.1,
+   "mass_kg": 0.479
+  }
+ ]
+}

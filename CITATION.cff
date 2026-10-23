@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it using the metadata below."
+title: "rlRobots: Simulated Robot Arm and Humanoid Pick, Carry and Place"
+type: software
+authors:
+  - family-names: Cleasby-Mayeda
+    given-names: Steven
+    affiliation: Oregon State University
+version: 0.1.0
+date-released: 2026-10-22
+license: MIT
+keywords:
+  - robotics
+  - reinforcement learning
+  - imitation learning
+  - humanoid robots
+  - Unitree G1
+  - SO-101
+  - Isaac Lab
+  - MuJoCo
+  - grasping
+  - loco-manipulation
