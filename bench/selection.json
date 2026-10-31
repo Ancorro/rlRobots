@@ -1,0 +1,9 @@
+{
+ "walk_carry": {
+  "policy": "v8",
+  "checkpoint": "827184b6db8632d98d1ac4a73f6816471af93c9f0085ac5e8e26dbc6f7d65f0f",
+  "candidates": [
+   "v8"
+  ]
+ }
+}

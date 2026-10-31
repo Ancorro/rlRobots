@@ -1,0 +1,50 @@
+<!-- Unitree G1 humanoid (Dex3 hands) at the general pick-and-place table: the same table top (z = 0), red tray, blue tray,
+     6 cm shelf and cameras as scene_general.xml, so the benchmark tasks are unchanged.
+     The robot model is fetched, not committed (~38 MB of meshes): python so101/assets/fetch_g1.py.
+     so101/g1.py prepare() fixes the pelvis in place behind the table (no walking yet), sets the table edge and the
+     ground under the robot's feet from that position, and adds the pinch site and fingertip markers. -->
+<mujoco model="g1_general">
+  <include file="unitree_g1/g1_with_hands.xml"/>
+  <compiler meshdir="unitree_g1/assets"/>
+  <size memory="64M"/>
+
+  <visual>
+    <headlight diffuse="0.6 0.6 0.6" ambient="0.3 0.3 0.3" specular="0 0 0"/>
+    <global azimuth="160" elevation="-20" offwidth="640" offheight="640"/>
+    <map znear="0.01"/>
+  </visual>
+
+  <asset>
+    <texture type="2d" name="groundplane" builtin="checker" mark="edge" rgb1="0.2 0.3 0.4" rgb2="0.1 0.2 0.3"
+      markrgb="0.8 0.8 0.8" width="300" height="300"/>
+    <material name="groundplane" texture="groundplane" texuniform="true" texrepeat="5 5" reflectance="0.2"/>
+    <material name="ground" rgba="0.35 0.33 0.3 1"/>
+  </asset>
+
+  <default>
+    <default class="object">
+      <geom condim="6" friction="1.2 0.03 0.003" solref="0.01 1"/>
+    </default>
+  </default>
+
+  <worldbody>
+    <light pos="0 0 3.5" dir="0 0 -1" directional="true"/>
+    <!-- the table: top at z = 0 like scene_general.xml's floor plane (named "floor" for the same reason: camera.py
+         tints it). prepare() puts its near edge just in front of the robot's hips. -->
+    <geom name="floor" type="box" size="0.4 0.6 0.5" pos="0.5 0 -0.5" material="groundplane"/>
+    <geom name="ground" type="plane" size="0 0 0.05" pos="0 0 -0.8" material="ground"/>
+    <body name="red_tray" pos="0.14 0.19 0.002">
+      <geom name="red_tray" type="box" size="0.045 0.045 0.002" rgba="0.95 0.6 0.6 1" contype="0" conaffinity="0"/>
+    </body>
+    <body name="blue_tray" pos="0.14 -0.19 0.002">
+      <geom name="blue_tray" type="box" size="0.045 0.045 0.002" rgba="0.6 0.7 0.95 1" contype="0" conaffinity="0"/>
+    </body>
+    <body name="shelf" pos="0.32 0 0.03">
+      <geom name="shelf" type="box" size="0.04 0.06 0.03" rgba="0.75 0.65 0.5 1"/>
+    </body>
+    <body name="workspace_center" pos="0.2 0 0.03"/>
+    <camera name="cam_right" pos="0.46 -0.25 0.32" mode="targetbody" target="workspace_center" fovy="50"/>
+    <camera name="cam_left" pos="0.46 0.25 0.32" mode="targetbody" target="workspace_center" fovy="50"/>
+    <camera name="cam_front" pos="0.50 0 0.42" mode="targetbody" target="workspace_center" fovy="58"/>
+  </worldbody>
+</mujoco>

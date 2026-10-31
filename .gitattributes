@@ -1,0 +1,12 @@
+* text=auto
+*.md text eol=crlf
+*.txt text eol=crlf
+*.sh text eol=lf
+*.sbatch text eol=lf
+*.py text eol=lf
+*.ps1 text eol=crlf
+private/ export-ignore
+/AGENTS.md export-ignore
+/LOG.md export-ignore
+/PROJECT.md export-ignore
+/see_live.py export-ignore
