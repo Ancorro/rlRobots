@@ -1,0 +1,7 @@
+# What openhlm/ needs on top of a CUDA PyTorch (the .venv-vla stack has torch and av; the CPU .venv has torch):
+#   .venv-vla/bin/pip install -r openhlm/requirements.txt
+numpy
+pyarrow>=15
+huggingface_hub>=0.25
+av>=12
+pillow>=9   # the camera frames (PNG bytes in the parquet rows)

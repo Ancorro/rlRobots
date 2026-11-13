@@ -1,0 +1,22 @@
+[project]
+name = "rlrobots"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "gymnasium[mujoco]",
+    "stable-baselines3",
+    "matplotlib",
+    "tqdm",
+    "rich",
+    "torch",
+    "pandas>=3.0.6",
+    "psutil>=7.2.2",
+]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

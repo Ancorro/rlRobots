@@ -1,0 +1,33 @@
+Bootstrap: docker
+From: vllm/vllm-openai:v0.31.0
+
+# The robot stack's software in one image (owner 2026-10-21): vLLM for Gemma / JEV serving and LoRA training, the stack's
+# simulation and perception libraries, and DAM-3B's own environment. No code and no model weights: jobs bind the git
+# checkout and the cluster's hf_cache. Rebuild only when requirements*.txt change (containers/stack/build.sbatch).
+
+%files
+    requirements.txt /opt/stack/requirements.txt
+    requirements-dam.txt /opt/stack/requirements-dam.txt
+
+%post
+    set -e
+    export DEBIAN_FRONTEND=noninteractive
+    # MuJoCo renders headless through EGL; the NVIDIA driver library comes from --nv, the loader from libglvnd
+    apt-get update && apt-get install -y --no-install-recommends libegl1 libgl1 libglvnd0 libgles2 ffmpeg python3-venv
+    rm -rf /var/lib/apt/lists/*
+    python3 -m pip install --no-cache-dir -r /opt/stack/requirements.txt
+    python3 -m venv /opt/dam
+    /opt/dam/bin/pip install --no-cache-dir -r /opt/stack/requirements-dam.txt
+    date -u +%Y-%m-%dT%H:%MZ > /opt/stack/built
+
+%environment
+    export MUJOCO_GL=egl PYOPENGL_PLATFORM=egl
+    export DAM_PY=/opt/dam/bin/python
+
+%test
+    python3 -c "import vllm, torch, transformers, peft, mujoco, gymnasium, av; print('stack', vllm.__version__, torch.__version__, transformers.__version__, mujoco.__version__)"
+    /opt/dam/bin/python -c "import torch, transformers; print('dam', torch.__version__, transformers.__version__)"
+
+%labels
+    project rlRobots
+    purpose robot stack: vLLM 0.31 + MuJoCo + perception + DAM-3B env

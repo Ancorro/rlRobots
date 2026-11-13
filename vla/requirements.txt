@@ -1,0 +1,8 @@
+# GPU (graphics processing unit) stack for VLA (vision-language-action) "System 1" work: Linux only
+# (OSU cluster, or WSL2 Ubuntu on the 4060 Ti). Kept apart from the CPU-only main uv.lock.
+# Install torch from the cu128 index (RUNBOOK). Uninstall torchcodec on Windows (videos decode with PyAV).
+lerobot[smolvla,vla-jepa,async,dataset]==0.6.1
+mujoco
+stable-baselines3
+matplotlib
+imageio[ffmpeg]

@@ -1,0 +1,496 @@
+{
+ "g1_HLM-12_full_teleop": {
+  "candidate": "ens",
+  "checkpoint": [
+   "/work/code/rlRobots-4/runs/openhlm/20261104-225700/g1_HLM-12_full_teleop/mlp-wide.pt",
+   "/work/code/rlRobots-4/runs/openhlm/20261104-225700/g1_HLM-12_full_teleop/mlp-cam.pt"
+  ],
+  "sha256": "6d7025a5f273af517377b1fb94b16bba08bfc1107b3bd314d5602708ff74ff67",
+  "val": {
+   "episodes": 71,
+   "successes": 60,
+   "rate": 0.8450704225352113,
+   "wilson95": [
+    0.743,
+    0.911
+   ],
+   "mean_skill": 0.5380084507042253,
+   "median_skill": 0.5386,
+   "at_level": {
+    "0.25": 71,
+    "0.5": 60,
+    "0.75": 0
+   },
+   "by_set": {
+    "g1_HLM-12_full_teleop": {
+     "episodes": 71,
+     "successes": 60,
+     "mean_skill": 0.538
+    }
+   }
+  },
+  "members": [
+   "mlp-wide",
+   "mlp-cam"
+  ],
+  "candidates": {
+   "ens": {
+    "successes": 60,
+    "mean_skill": 0.538,
+    "episodes": 71,
+    "steps": 0,
+    "seconds": 0,
+    "best_step": 0,
+    "cameras": []
+   },
+   "mlp-wide": {
+    "successes": 56,
+    "mean_skill": 0.5353,
+    "episodes": 71,
+    "steps": 20619,
+    "seconds": 73.9,
+    "best_step": 20619,
+    "cameras": []
+   },
+   "mlp-cam": {
+    "successes": 33,
+    "mean_skill": 0.4893,
+    "episodes": 71,
+    "steps": 1270,
+    "seconds": 109.7,
+    "best_step": 1270,
+    "cameras": [
+     "head_image_left",
+     "left_wrist_image",
+     "right_wrist_image"
+    ]
+   },
+   "ridge": {
+    "successes": 0,
+    "mean_skill": 0.1844,
+    "episodes": 71,
+    "steps": 0,
+    "seconds": 6.0,
+    "best_step": 0,
+    "cameras": []
+   }
+  },
+  "hold_val": {
+   "episodes": 71,
+   "successes": 0,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.051
+   ],
+   "mean_skill": 0.0,
+   "median_skill": 0.0,
+   "at_level": {
+    "0.25": 0,
+    "0.5": 0,
+    "0.75": 0
+   },
+   "by_set": {
+    "g1_HLM-12_full_teleop": {
+     "episodes": 71,
+     "successes": 0,
+     "mean_skill": 0.0
+    }
+   }
+  }
+ },
+ "g1_HLM-12_humi": {
+  "candidate": "mlp-wide",
+  "checkpoint": "/work/code/rlRobots-4/runs/openhlm/20261104-225700/g1_HLM-12_humi/mlp-wide.pt",
+  "sha256": "10a6d01906c4c029168ff10732a0aead26db92fffd0cd2b27658a19b5a6dcb53",
+  "val": {
+   "episodes": 71,
+   "successes": 46,
+   "rate": 0.647887323943662,
+   "wilson95": [
+    0.532,
+    0.749
+   ],
+   "mean_skill": 0.5109140845070422,
+   "median_skill": 0.5422,
+   "at_level": {
+    "0.25": 69,
+    "0.5": 46,
+    "0.75": 0
+   },
+   "by_set": {
+    "g1_HLM-12_humi": {
+     "episodes": 71,
+     "successes": 46,
+     "mean_skill": 0.5109
+    }
+   }
+  },
+  "members": null,
+  "candidates": {
+   "mlp-wide": {
+    "successes": 46,
+    "mean_skill": 0.5109,
+    "episodes": 71,
+    "steps": 21167,
+    "seconds": 74.9,
+    "best_step": 18274,
+    "cameras": []
+   },
+   "ens": {
+    "successes": 43,
+    "mean_skill": 0.5036,
+    "episodes": 71,
+    "steps": 0,
+    "seconds": 0,
+    "best_step": 0,
+    "cameras": []
+   },
+   "mlp-cam": {
+    "successes": 23,
+    "mean_skill": 0.4324,
+    "episodes": 71,
+    "steps": 684,
+    "seconds": 107.7,
+    "best_step": 684,
+    "cameras": [
+     "head_image_left",
+     "left_wrist_image",
+     "right_wrist_image"
+    ]
+   },
+   "ridge": {
+    "successes": 0,
+    "mean_skill": 0.1656,
+    "episodes": 71,
+    "steps": 0,
+    "seconds": 5.3,
+    "best_step": 0,
+    "cameras": []
+   }
+  },
+  "hold_val": {
+   "episodes": 71,
+   "successes": 0,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.051
+   ],
+   "mean_skill": 0.0,
+   "median_skill": 0.0,
+   "at_level": {
+    "0.25": 0,
+    "0.5": 0,
+    "0.75": 0
+   },
+   "by_set": {
+    "g1_HLM-12_humi": {
+     "episodes": 71,
+     "successes": 0,
+     "mean_skill": 0.0
+    }
+   }
+  }
+ },
+ "g1_HLM-12_stationary_teleop": {
+  "candidate": "ens",
+  "checkpoint": [
+   "/work/code/rlRobots-4/runs/openhlm/20261104-225700/g1_HLM-12_stationary_teleop/mlp-wide.pt",
+   "/work/code/rlRobots-4/runs/openhlm/20261104-225700/g1_HLM-12_stationary_teleop/mlp-cam.pt"
+  ],
+  "sha256": "382aacf71b2642a363301f7d5e8cbd170e94859c9d6f0005ee033120fa6c70fa",
+  "val": {
+   "episodes": 71,
+   "successes": 41,
+   "rate": 0.5774647887323944,
+   "wilson95": [
+    0.462,
+    0.685
+   ],
+   "mean_skill": 0.5110295774647887,
+   "median_skill": 0.526,
+   "at_level": {
+    "0.25": 70,
+    "0.5": 41,
+    "0.75": 0
+   },
+   "by_set": {
+    "g1_HLM-12_stationary_teleop": {
+     "episodes": 71,
+     "successes": 41,
+     "mean_skill": 0.511
+    }
+   }
+  },
+  "members": [
+   "mlp-wide",
+   "mlp-cam"
+  ],
+  "candidates": {
+   "ens": {
+    "successes": 41,
+    "mean_skill": 0.511,
+    "episodes": 71,
+    "steps": 0,
+    "seconds": 0,
+    "best_step": 0,
+    "cameras": []
+   },
+   "mlp-wide": {
+    "successes": 38,
+    "mean_skill": 0.4939,
+    "episodes": 71,
+    "steps": 21663,
+    "seconds": 76.9,
+    "best_step": 18244,
+    "cameras": []
+   },
+   "mlp-cam": {
+    "successes": 33,
+    "mean_skill": 0.4841,
+    "episodes": 71,
+    "steps": 2295,
+    "seconds": 148.6,
+    "best_step": 2295,
+    "cameras": [
+     "head_image_left",
+     "left_wrist_image",
+     "right_wrist_image"
+    ]
+   },
+   "ridge": {
+    "successes": 0,
+    "mean_skill": 0.1542,
+    "episodes": 71,
+    "steps": 0,
+    "seconds": 5.7,
+    "best_step": 0,
+    "cameras": []
+   }
+  },
+  "hold_val": {
+   "episodes": 71,
+   "successes": 0,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.051
+   ],
+   "mean_skill": 0.0,
+   "median_skill": 0.0,
+   "at_level": {
+    "0.25": 0,
+    "0.5": 0,
+    "0.75": 0
+   },
+   "by_set": {
+    "g1_HLM-12_stationary_teleop": {
+     "episodes": 71,
+     "successes": 0,
+     "mean_skill": 0.0
+    }
+   }
+  }
+ },
+ "long_g1_5_fruits_full_teleop": {
+  "candidate": "ens",
+  "checkpoint": [
+   "/work/code/rlRobots-4/runs/openhlm/20261104-225700/long_g1_5_fruits_full_teleop/mlp-wide.pt",
+   "/work/code/rlRobots-4/runs/openhlm/20261104-225700/long_g1_5_fruits_full_teleop/mlp-cam.pt"
+  ],
+  "sha256": "cf336f2c7ff1f09f58988d2705822885a45c07f95498989482b55ad803ff8542",
+  "val": {
+   "episodes": 17,
+   "successes": 12,
+   "rate": 0.7058823529411765,
+   "wilson95": [
+    0.469,
+    0.867
+   ],
+   "mean_skill": 0.534270588235294,
+   "median_skill": 0.544,
+   "at_level": {
+    "0.25": 17,
+    "0.5": 12,
+    "0.75": 0
+   },
+   "by_set": {
+    "long_g1_5_fruits_full_teleop": {
+     "episodes": 17,
+     "successes": 12,
+     "mean_skill": 0.5343
+    }
+   }
+  },
+  "members": [
+   "mlp-wide",
+   "mlp-cam"
+  ],
+  "candidates": {
+   "ens": {
+    "successes": 12,
+    "mean_skill": 0.5343,
+    "episodes": 17,
+    "steps": 0,
+    "seconds": 0,
+    "best_step": 0,
+    "cameras": []
+   },
+   "mlp-cam": {
+    "successes": 12,
+    "mean_skill": 0.523,
+    "episodes": 17,
+    "steps": 7737,
+    "seconds": 250.8,
+    "best_step": 4729,
+    "cameras": [
+     "head_image_left",
+     "left_wrist_image",
+     "right_wrist_image"
+    ]
+   },
+   "mlp-wide": {
+    "successes": 9,
+    "mean_skill": 0.5096,
+    "episodes": 17,
+    "steps": 22279,
+    "seconds": 77.9,
+    "best_step": 18211,
+    "cameras": []
+   },
+   "ridge": {
+    "successes": 0,
+    "mean_skill": 0.2546,
+    "episodes": 17,
+    "steps": 0,
+    "seconds": 3.9,
+    "best_step": 0,
+    "cameras": []
+   }
+  },
+  "hold_val": {
+   "episodes": 17,
+   "successes": 0,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.184
+   ],
+   "mean_skill": 0.0,
+   "median_skill": 0.0,
+   "at_level": {
+    "0.25": 0,
+    "0.5": 0,
+    "0.75": 0
+   },
+   "by_set": {
+    "long_g1_5_fruits_full_teleop": {
+     "episodes": 17,
+     "successes": 0,
+     "mean_skill": 0.0
+    }
+   }
+  }
+ },
+ "long_g1_5_fruits_humi": {
+  "candidate": "ens",
+  "checkpoint": [
+   "/work/code/rlRobots-4/runs/openhlm/20261104-225700/long_g1_5_fruits_humi/mlp-wide.pt",
+   "/work/code/rlRobots-4/runs/openhlm/20261104-225700/long_g1_5_fruits_humi/mlp-cam.pt"
+  ],
+  "sha256": "1ae5749351448043f03228ee08e22eddf794f066c1d3269804bd7e9d906eb390",
+  "val": {
+   "episodes": 29,
+   "successes": 19,
+   "rate": 0.6551724137931034,
+   "wilson95": [
+    0.473,
+    0.801
+   ],
+   "mean_skill": 0.5529827586206897,
+   "median_skill": 0.572,
+   "at_level": {
+    "0.25": 29,
+    "0.5": 19,
+    "0.75": 0
+   },
+   "by_set": {
+    "long_g1_5_fruits_humi": {
+     "episodes": 29,
+     "successes": 19,
+     "mean_skill": 0.553
+    }
+   }
+  },
+  "members": [
+   "mlp-wide",
+   "mlp-cam"
+  ],
+  "candidates": {
+   "ens": {
+    "successes": 19,
+    "mean_skill": 0.553,
+    "episodes": 29,
+    "steps": 0,
+    "seconds": 0,
+    "best_step": 0,
+    "cameras": []
+   },
+   "mlp-wide": {
+    "successes": 19,
+    "mean_skill": 0.5423,
+    "episodes": 29,
+    "steps": 23394,
+    "seconds": 80.0,
+    "best_step": 18453,
+    "cameras": []
+   },
+   "mlp-cam": {
+    "successes": 19,
+    "mean_skill": 0.5409,
+    "episodes": 29,
+    "steps": 12049,
+    "seconds": 337.8,
+    "best_step": 9471,
+    "cameras": [
+     "head_image_left",
+     "left_wrist_image",
+     "right_wrist_image"
+    ]
+   },
+   "ridge": {
+    "successes": 1,
+    "mean_skill": 0.2059,
+    "episodes": 29,
+    "steps": 0,
+    "seconds": 2.4,
+    "best_step": 0,
+    "cameras": []
+   }
+  },
+  "hold_val": {
+   "episodes": 29,
+   "successes": 0,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.117
+   ],
+   "mean_skill": 0.0,
+   "median_skill": 0.0,
+   "at_level": {
+    "0.25": 0,
+    "0.5": 0,
+    "0.75": 0
+   },
+   "by_set": {
+    "long_g1_5_fruits_humi": {
+     "episodes": 29,
+     "successes": 0,
+     "mean_skill": 0.0
+    }
+   }
+  }
+ }
+}

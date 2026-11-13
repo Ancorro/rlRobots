@@ -1,0 +1,31 @@
+{
+ "source": "so101/unitree_data.py synergy, 2026-10-06: mean right-hand pose 1 s before and after the lowest point of 1402 grasps in unitreerobotics/G1_Dex3_{PickApple,PickBottle,PickCharger,PickGum,PickSnack,PickTissue,PickDoll,GraspSquare}_Dataset (real G1 + Dex3 teleoperation)",
+ "joints": [
+  "right_hand_thumb_0_joint",
+  "right_hand_thumb_1_joint",
+  "right_hand_thumb_2_joint",
+  "right_hand_index_0_joint",
+  "right_hand_index_1_joint",
+  "right_hand_middle_0_joint",
+  "right_hand_middle_1_joint"
+ ],
+ "open": [
+  0.0924,
+  -0.7784,
+  -0.5589,
+  0.1937,
+  0.3119,
+  0.1687,
+  0.5111
+ ],
+ "closed": [
+  0.1245,
+  -0.6161,
+  -0.7837,
+  0.3364,
+  0.8799,
+  0.2358,
+  1.1279
+ ],
+ "grasps": 1402
+}
